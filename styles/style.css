@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+  position: relative;  
+  min-height: 52.5vh;
+  border: 1px solid red;
+  width: 100vw;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;        
+}
+
+iframe{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw; 
+  height: 60vw;       
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.linkTCImage{
+    
+    width: 60px;
+    height: 50px;
+}
+
+.top-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    position: relative;
+    z-index: 1;
+    margin: 2em 2em 4em 2em;
+}
+
+.logo-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    border: 1px solid red;
+}
+
+.about-game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    color: white;
+}
+
+.about-game h1{
+    font-weight: 400;
+}
