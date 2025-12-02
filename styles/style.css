@@ -90,7 +90,7 @@ body, html{
     gap: 4em;
     /* max-width: 1200px; */
     margin: 0 auto 2rem;
-    border: 1px solid rgba(247, 247, 247, 0.315);
+    /* border: 1px solid rgba(247, 247, 247, 0.315); */
 }
 
 .about-title{
@@ -139,7 +139,7 @@ body, html{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100vw;
   height: 50vh;
 }
@@ -153,11 +153,26 @@ body, html{
   width: 100%;
   height: 100%;
 }
+.plataforms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.logos-plataforms{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
 
 @media (max-width: 900px) {
-  .about img{
-  } 
-
   .about {
     flex-direction: column;
     text-align: center;
@@ -175,5 +190,13 @@ body, html{
 
   .text-about {
     max-width: 640px;
+  }
+
+  .video-wrapper{
+    width: 100vw;
+  }
+
+  .logos-plataforms img{
+    width: 200px;
   }
 }
