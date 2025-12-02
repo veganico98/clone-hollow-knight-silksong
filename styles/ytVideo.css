@@ -1,0 +1,28 @@
+.ytVideo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 50vh;
+}
+
+.video-wrapper{
+  width: 50%;
+  height: 100%;
+}
+
+.promoVideo{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .video-wrapper{
+    width: 100vw;
+  }
+
+  .logos-plataforms img{
+    width: 200px;
+  }
+}

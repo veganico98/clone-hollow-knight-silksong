@@ -1,0 +1,34 @@
+.plataforms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.logos-plataforms{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .logos-plataforms img{
+    width: 200px;
+  }
+}
