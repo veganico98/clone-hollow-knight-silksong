@@ -90,4 +90,8 @@
     .members{
         flex-wrap: wrap;
     }
+
+    .TCLogo{
+        width: 80vw;
+    }
 }

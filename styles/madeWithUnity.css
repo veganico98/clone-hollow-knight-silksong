@@ -1,11 +1,12 @@
 .madeWithUnity-container{
     width: 100%;
-    height: 45vh;
+    min-height: 45vh;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+    padding: clamp(32px, 6vw, 64px) 20px;
 }
 
 .madeWithUnity-container::before{
@@ -44,4 +45,22 @@
     cursor: pointer;
     opacity: 1;
     transition: opacity 0.2s ease;
+}
+
+@media (max-width: 768px){
+    .madeWithUnity-container{
+        min-height: auto;
+        height: auto;
+        padding: 48px 24px;
+    }
+
+    .madeWithUnity{
+        width: 100%;
+        gap: 12px;
+    }
+
+    .madeWithUnity img{
+        width: 65%;
+        max-width: 260px;
+    }
 }
