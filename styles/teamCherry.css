@@ -93,5 +93,6 @@
 
     .TCLogo{
         width: 80vw;
+        border: 1px solid black;
     }
 }
