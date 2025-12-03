@@ -1,0 +1,83 @@
+.extras{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 20px 24px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.soundtrack,.pressKit{
+    color: white;
+    font-weight: 200;
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.soundtrack p,.pressKit p{
+    font-size: 0.9em;
+}
+
+.soundtrack h2{
+    font-weight: 500;
+}
+
+.soundtrack-img{
+    width: 30em;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.pressKit h2{
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.pressKit button, .soundtrack button{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.pressKit button:hover, .soundtrack button:hover{
+    opacity: 0.8;
+}
+
+.pressKit button:active, .soundtrack button:active{
+    opacity: 0.65;
+}
+
+.text-extra{
+    flex: 1 1 260px;
+    max-width: 520px;
+}
+
+@media (max-width: 900px) {
+    .soundtrack{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .pressKit{
+        gap: 1em;
+    }
+
+    .soundtrack-img{
+        width: 20em;
+    }
+
+    .pressKit-img{
+        width: 25em;
+    }
+}
