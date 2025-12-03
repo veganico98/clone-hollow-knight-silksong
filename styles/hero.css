@@ -75,7 +75,8 @@ body, html{
 
 .logo-hero img{
     width: 31em;
-    height: 20em;
+    max-width: 90vw;
+    height: auto;
 }
 
 .socialMedias{
@@ -96,10 +97,19 @@ body, html{
     filter: brightness(0) invert(1);
 }
 
+@media (max-width: 1024px) {
+    .logo-hero img{
+        width: 24em;
+        max-width: 100vw;
+    }
+}
+
 @media (max-width: 768px) {
     .logo-hero{
-        position: relative;
-        left: 6.5em;
-        width: 15em;
+        justify-content: center;
+    }
+    .logo-hero img{
+        width: 18em;
+        max-width: 82vw;
     }
 }

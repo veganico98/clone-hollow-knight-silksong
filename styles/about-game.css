@@ -73,7 +73,7 @@
 @media (max-width: 768px) {
     .about-game h1{
         position: relative;
-        left: -5px;
+        left: -10px;
         font-size: 2em;
         font-weight: 600;
     }
