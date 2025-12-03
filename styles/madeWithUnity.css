@@ -52,13 +52,11 @@
         min-height: auto;
         height: auto;
         padding: 48px 24px;
-        border: 1px solid red;
     }
 
     .madeWithUnity{
         width: 100%;
         gap: 12px;
-        border: 1px solid red;
         position: relative;
         left: -20px;
     }
