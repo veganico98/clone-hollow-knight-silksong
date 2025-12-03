@@ -69,3 +69,13 @@
       max-width: 640px;
   }
 }
+
+@media (max-width: 768px) {
+    .about-game h1{
+        position: relative;
+        left: -5px;
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+}
